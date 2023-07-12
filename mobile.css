@@ -1,0 +1,79 @@
+/* Para teléfonos */
+@media only screen and (max-width: 600px) {
+    .contenedor {
+      width: 100%;
+      padding: 10px;
+    }
+    
+    h4 {
+      font-size: 20px;
+      margin-bottom: 8px;
+    }
+    
+    p {
+      font-size: 14px;
+    }
+  }
+
+.padre{
+    max-width: 480px;
+    height: 50rem;
+}
+.cajita{
+    width: 320px;
+    height: 68px;
+    display: flex;
+    justify-content: space-between;
+    background-color: brown;
+}
+.centro{
+position: absolute;
+left: 4rem;
+top: 2rem;
+}
+.menu{
+    position: absolute;
+    left: 24rem;
+    width: 24px;
+    height: 24px;
+    top: 2rem;
+}
+.caja{
+    width: 320px;
+    height: 780px;
+    top: 68px;
+    background-color: blueviolet;
+    left: 2rem;
+}
+.titulo{
+    width: Hug(290px);
+    height: Hug(262px);
+    top: 2rem;
+    left: 5rem;
+    justify-content: center;
+}
+.tabla1{
+    font-size: 19px;
+    position: absolute;
+    top: 18rem;
+    left: 1.3rem;
+    width: 384px;
+    height: 111px;
+}
+.busque {
+    width: 16rem;
+    height: 2.6rem;
+    background-color: #FFFFFF;
+    position: absolute;
+    top: 146px;
+    left: 20px;
+    box-shadow: 5px 4px 10px rgba(87, 75, 75,0.812);
+    border-radius: 10px;
+    }
+    .busqueda {
+    font-size: 1rem;
+    color: black;
+    position: absolute;
+    left: 1rem;
+    top: 0.6rem;
+    }
